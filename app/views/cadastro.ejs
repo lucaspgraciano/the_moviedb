@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>CADASTRO</title>
+		<link rel="stylesheet" href="css/estilo.css">
+	</head>
+
+	<body>
+
+		<h1 id="titulo">CADASTRO</h1>
+	    <div class="container">
+
+			<% if(validacao.length > 0) { %>
+				<div id="alerta">
+					<h3>ATENÇÃO!</h3>
+						<% for(var i=0; i < validacao.length; i++){ %>
+							<p><%= validacao[i].msg %></p>
+						<% } %>	
+				</div>
+			<% } %>	
+	    		
+			<form action="/cadastrar" method="post">		
+				<div id="cad">
+					<div>
+						<div>
+							<input  type="email" id="email" name="email" placeholder="E-mail" value="<%= dadosForm.email%>">
+						</div>
+					</div>
+					
+					<div>
+						<div>
+							<input  type="usuario" id="usuario" name="usuario" placeholder="Usuário" value="<%= dadosForm.usuario%>">
+						</div>
+					</div>
+
+					<div>
+						<div>
+							<input id="nasc" type="data" id="data" name="data" placeholder="Nascimento (dia/mês/ano)" value="<%= dadosForm.data%>">
+						</div>
+					</div>
+					
+					<div>
+						<div>
+							<input type="password" id="senha" name="senha" placeholder="Senha" value="<%= dadosForm.senha%>" >
+						</div>
+					</div>
+
+					<div>
+						<button class="cadastrar" type="submit" id="botaoConf">Confirmar cadastro</button>
+					</div>
+				</div>
+				<br>
+			</form>	
+	    </div>	
+		
+	</body>
+</html>
