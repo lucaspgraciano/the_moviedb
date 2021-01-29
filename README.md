@@ -1,9 +1,11 @@
 # Aplicação utilizando The Movie DB
 
 Aplicação web feita com NodeJS, MongoDB e JS Vanilla. Utilizando as ferramentas Express, Express-Validator, Express-Session, Body-Parser, Consign, Ejs e MongoDB enquanto consome API The movieDB;
+<br>
 Nesta aplicação é possível se cadastrar e realizar busca por filmes através da API; 
 Dependências:
-  body-parser": "^1.18.2"
+  body-parser": "^1.18.2"<br>
+
   consign": "^0.1.2,
   ejs": "^2.5.2,
   express": "^4.16.2,
