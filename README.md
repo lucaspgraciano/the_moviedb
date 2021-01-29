@@ -1,6 +1,6 @@
 # Aplicação utilizando The Movie DB
 
-Aplicação web feita com NodeJS, MongoDB e JS Vanilla;<br><br>
+<h2>Aplicação web feita com NodeJS, MongoDB e JS Vanilla;</h2><br><br>
 Utilizando as ferramentas Express, Express-Validator, Express-Session, Body-Parser, Consign, Ejs e MongoDB enquanto consome API The movieDB;<br><br>
 Nesta aplicação é possível se cadastrar e realizar busca por filmes através da API;<br><br>
 Dependências:<br>
@@ -13,7 +13,7 @@ Dependências:<br>
   mongodb": "^3.6.3<br><br><br>
   
   
-Web application made with NodeJS, MongoDB and JS Vanilla;<br><br>
+<h2>Web application made with NodeJS, MongoDB and JS Vanilla;</h2><br><br>
 Using the tools Express, Express-Validator, Express-Session, Body-Parser, Consign, Ejs and MongoDB while consuming API The movieDB;<br><br>
 In this application it is possible to register and search for films through the API;<br><br>
 Dependencies:<br>
