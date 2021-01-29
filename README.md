@@ -1,4 +1,3 @@
-# Aplicação utilizando The Movie DB
 
 <h2>Aplicação web feita com NodeJS, MongoDB e JS Vanilla;</h2><br><br>
 Utilizando as ferramentas Express, Express-Validator, Express-Session, Body-Parser, Consign, Ejs e MongoDB enquanto consome API The movieDB;<br><br>
